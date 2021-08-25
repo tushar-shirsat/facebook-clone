@@ -10,6 +10,7 @@ const Login = () => {
         height={400}
         width={400}
         objectFit="contain"
+        alt='facebook'
       />
       <h1 onClick={signIn} className="p-5 bg-blue-500 rounded-full text-center text-white cursor-pointer">
         Login with Facebook

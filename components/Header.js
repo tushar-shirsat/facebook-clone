@@ -63,6 +63,7 @@ const Header = () => {
           width={40}
           height={40}
           layout="fixed"
+          alt={session.user.name}
         />
         <p className="hidden sm:block font-semibold pr-3 whitespace-nowrap">{session.user.name}</p>
         <ViewGridIcon className="icon" />

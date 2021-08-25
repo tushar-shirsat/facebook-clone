@@ -10,6 +10,7 @@ const Contact = ({ src, name }) => {
         width={50}
         height={50}
         layout="fixed"
+        alt={name}
       />
       <p>{name}</p>
       <div className="absolute bottom-2 left-7 z-50 bg-green-400 h-3 rounded-full animate-bounce"></div>

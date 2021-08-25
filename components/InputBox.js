@@ -74,6 +74,7 @@ const InputBox = () => {
           width={40}
           height={40}
           layout="fixed"
+          alt={session.user.name}
         />
 
         <form className="flex flex-1">
